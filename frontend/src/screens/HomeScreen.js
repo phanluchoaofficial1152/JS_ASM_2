@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 // import data from "../data";
 import axios from 'axios';
+// eslint-disable-next-line
 import { useEffect, useReducer, useState } from "react";
 import logger from 'use-reducer-logger';
 import React  from 'react';
@@ -71,7 +72,7 @@ function HomeScreen () {
                     <p>{product.name}</p>
                   </Link>
                     <p><strong>${product.price}</strong></p>
-                    <button>Add to cart</button>
+                    <button className="btn-cart">Add to cart</button>
                 </div>
               </div>
               ))
