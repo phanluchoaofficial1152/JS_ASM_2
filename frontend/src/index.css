@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+  --header: 'Josefin Sans', sans-serif;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,4 +24,39 @@ header a {
   color: #ffffff;
   font-weight: bolder;
   text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.title-featured {
+  padding-left: 30px;
+  text-align: center;
+}
+
+.title-header {
+  font-size: 28px;
+  font-family: var(--header);
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
 }
