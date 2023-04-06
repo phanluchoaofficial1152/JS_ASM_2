@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import axios from 'axios';
 import { useEffect, useReducer, useState } from "react";
 import logger from 'use-reducer-logger';
+import React  from 'react';
 
 const reducer = (state , action) => {
   switch (action.type) {
