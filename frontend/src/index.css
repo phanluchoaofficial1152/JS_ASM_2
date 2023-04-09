@@ -38,15 +38,6 @@ main {
   background-color: #000000;
 }
 
-.title-featured {
-  padding-left: 30px;
-  text-align: center;
-}
-
-.title-header {
-  font-family: var(--header);
-}
-
 .products {
   display: flex;
   flex-wrap: wrap;
